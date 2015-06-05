@@ -1,5 +1,5 @@
 # Site settings
-url: "https://masterx1582.github.io/"
+url: "https://masterx1582.github.io"
 # url: "//localhost:4000"   # activate this to test on your localhost
 author: "BlinkTrade"
 baseurl: ""
