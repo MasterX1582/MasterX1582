@@ -1,0 +1,29 @@
+{namespace bitex.ui.OrderBook.templates}
+
+/**
+  * @param title
+  * @param columns
+  */
+{template .OrderBook}
+  <div class="ls-txt-center"><h3>{$title}</h3></div>
+  <table class="ls-table ls-table-striped ls-bg-header">
+    <thead>
+      <tr>
+        {foreach $column in $columns}
+          <th>{$column}</th>
+        {/foreach}
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+{/template}
+
+/**
+  *
+  */
+{template .OrderBookDragOrder}
+  <div class="order-book-drag-order">
+     {msg desc="Caption shown when user is drag & dropping an order in the order book"}Cancel/Replace Order{/msg}
+  </div>
+{/template}
